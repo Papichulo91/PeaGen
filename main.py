@@ -44,7 +44,8 @@ if savefile != "none":
     f = open(savefile,"a")
 for x in range(counter):
     generated = gen.generate_card(cardtype,16)
-    card = f"{generated}|{month}|{year}|{cvv}"
+    card = f"{generated}|{month}|{year}| return number_of_meow
+}"
     print("[bold green]"+card)
     if savefile != "none":
         f.write(card+"\n")
